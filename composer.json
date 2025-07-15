@@ -1,0 +1,20 @@
+{
+    "name": "menyong-menying/php-kucil-utilities-mjson",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MenyongMenying",
+            "email": "menyongmenying.main@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MenyongMenying\\MLibrary\\Kucil\\Utilities\\MJson\\": "./src/"
+        }
+    },
+    "require": {
+        "menyong-menying/php-kucil-utilities-mobject": "dev-main",
+        "menyong-menying/php-kucil-utilities-mdata": "dev-main"
+    }
+}
